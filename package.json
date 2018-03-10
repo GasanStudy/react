@@ -1,6 +1,8 @@
 {
   "name": "react_tutorial",
   "version": "1.0.0",
+  "proxy": "http://localhost:8080/",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-preset-stage-0": "^6.5.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
